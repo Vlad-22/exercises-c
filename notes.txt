@@ -1,3 +1,23 @@
 Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 ===============================================================================
 
+- algoritm = o succesisiune de pași prin care prelucrezi niște date (de
+  intrare) și obții niște rezultate (date de ieșire)
+
+  Exemple: REȚETA de a face o plăcintă - pas. 1, pas. 2...
+              - pașii și ordinea lor
+              - ingredientele - datele de intrare
+              - produsul obținut (plăcinta) - date de ieșire
+
+           SUMA a două numere
+              - se dau: A și B (date de intrare)
+              - rezultă: C (date de ieșire)
+              - pașii: C = A + B
+
+- limbaj de programare = mijloc de comunicare între programator și calculator
+- program = descrierea unui algoritm într-un limbaj de programare
+- (1) cod-mașină = limbajul procesorul
+- (2) limbaj de asamblare
+- (3) limbaj de programare de nivel înalt (nu ai nevoie de cunoștințe specifice
+                                       de hardware)
+- exemple de limbaje de progrmare: FORTRAN, Pascal, C, C++, C#, Java etc
