@@ -21,3 +21,5 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 - (3) limbaj de programare de nivel înalt (nu ai nevoie de cunoștințe specifice
                                        de hardware)
 - exemple de limbaje de progrmare: FORTRAN, Pascal, C, C++, C#, Java etc
+
+EDITAT
