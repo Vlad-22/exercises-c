@@ -26,6 +26,17 @@ Identificatori ( nume ) = rolul lor este de a denumi elemente din program: const
                             caractere ( cum ar fi _ underscore ) iar primul carectere trebuie sa fie litera sau chiar underscore
                       - sunt luate in considerare primele 31 de caractere desi poate sa aiba orice lungime
                       - lfimbajul C/C++ este de tip case-sensitive - face diferenta dintre literele mici si mari
-                      -
+                      - pentru a intelege scopul folosirii acestora este bine sa se foloseasca identificatorii sugestivi si este bine sa se construiasca mai multe
+                      radacini sau cuvinte iar in acest caz se pot folosi majuscule ( ex. NrDeLaMasina, NrTelefon, etc )
+ 
+Cuvinte rezervate ( cuvinte cheie = keywords ) = au inteles predefinit si sunt utilizate in constructii sintactice in care sunt specificati
+       Exempele =>  if - descrie inceputul unei instructiuni alternative
+                    while - descrie inceputul unei instructiuni repetitive
 
+Comentarii = sunt ignorate de catre compilaotr ( este un program cu rol de a traduce textul programului care este scris intr-un limbaj de programare numit cod sursa
+in limbaj-masina iar astfel se obtine cod-obiect ) iar ca si rol are de a explica pentru progarmatori anumite secvente din program
+    Exemple: - /**/ se poate scrie mai multe linii de cod
+             - // se poate scrie doar o singura linie de cod
+
+Separatori = 
 TEMĂ: de citit până la pagina 18 sus
