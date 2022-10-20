@@ -22,4 +22,9 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
                                        de hardware)
 - exemple de limbaje de progrmare: FORTRAN, Pascal, C, C++, C#, Java etc
 
+Identificatori ( nume ) = rolul lor este de a denumi elemente din program: constante, variabile, functii, ... ; iar sintactic este o succesiune de cuvinte, litere,                                  caractere ( cum ar fi _ underscore ) iar primul carectere trebuie sa fie litera sau chiar underscore
+                      - sunt luate in considerare primele 31 de caractere desi poate sa aiba orice lungime
+                      - lfimbajul C/C++ este de tip case-sensitive - face diferenta dintre literele mici si mari
+                      -
+
 TEMĂ: de citit până la pagina 18 sus
