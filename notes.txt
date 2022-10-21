@@ -38,5 +38,17 @@ in limbaj-masina iar astfel se obtine cod-obiect ) iar ca si rol are de a explic
     Exemple: - /**/ se poate scrie mai multe linii de cod
              - // se poate scrie doar o singura linie de cod
 
-Separatori = 
+Separatori = aici intra: spatiu, ' ', TAB, '\t', sfarsit de linie ( tasta ENTER ) sau newline '\n'. Acestia fiind separatori "universali"
+Ca si separatori specifici sunt: " , " - virgula se foloseste la o declarare de variabile
+Separatorii delimitatori sunt: " ; " - punct si virgula se utilizeaza atunci cand vrei sa delimitezi sfarsitul unei instructiuni sau a unei variabile
+                               " ' " - apostrof este utilizat cand vrei sa delimitezi o constanta caracter
+                               " "" " - ghilimelele se folosesc atunci cand vrei sa delimitezi constantele sir de caracter
+                               
+Structura generala a unui program C/C++ = este alcatuit dintr-o succesiune de module denumite functii - iar una dintre cele mai importante functii este " main() "
+iar aceasta functie este obligatoriu ca sa apara cel putin o singura data in program pentru ca executia programului incepe cu aceasta functie
+      - o functie este alcatuita din: => antetul functiei - contine numele functiei, 
+                                                          - tipul rezultatului pe care il calculeaza functia
+                                                          - lista de parameti cu care comunica functia iar aceasta din urma este incadrata intre: ()
+                                                              exemplu: tip_rezultat nume (lista_parametri)
+                                      => corpul functiei
 TEMĂ: de citit până la pagina 18 sus
