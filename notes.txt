@@ -4,11 +4,7 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 - algoritm = o succesisiune de pași prin care prelucrezi niște date (de
   intrare) și obții niște rezultate (date de ieșire)
 
-  Exemple: REȚETA de a face o plăcintă - pas. 1, pas. 2...
-              - pașii și ordinea lor
-              - ingredientele - datele de intrare
-              - produsul obținut (plăcinta) - date de ieșire
-
+  Exemple: REȚETA de făcut plăcintă
            SUMA a două numere
               - se dau: A și B (date de intrare)
               - rezultă: C (date de ieșire)
@@ -16,39 +12,32 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 
 - limbaj de programare = mijloc de comunicare între programator și calculator
 - program = descrierea unui algoritm într-un limbaj de programare
-- (1) cod-mașină = limbajul procesorul
-- (2) limbaj de asamblare
-- (3) limbaj de programare de nivel înalt (nu ai nevoie de cunoștințe specifice
-                                       de hardware)
+- cod-mașină = limbajul procesorul, limbaj de asamblare, limbaj de nivel înalt
 - exemple de limbaje de progrmare: FORTRAN, Pascal, C, C++, C#, Java etc
 
-Identificatori ( nume ) = rolul lor este de a denumi elemente din program: constante, variabile, functii, ... ; iar sintactic este o succesiune de cuvinte, litere,
-                            caractere ( cum ar fi _ underscore ) iar primul carectere trebuie sa fie litera sau chiar underscore
-                      - sunt luate in considerare primele 31 de caractere desi poate sa aiba orice lungime
-                      - lfimbajul C/C++ este de tip case-sensitive - face diferenta dintre literele mici si mari
-                      - pentru a intelege scopul folosirii acestora este bine sa se foloseasca identificatorii sugestivi si este bine sa se construiasca mai multe
-                      radacini sau cuvinte iar in acest caz se pot folosi majuscule ( ex. NrDeLaMasina, NrTelefon, etc )
- 
-Cuvinte rezervate ( cuvinte cheie = keywords ) = au inteles predefinit si sunt utilizate in constructii sintactice in care sunt specificati
-       Exempele =>  if - descrie inceputul unei instructiuni alternative
-                    while - descrie inceputul unei instructiuni repetitive
+- identificatori (nume) = denumesc elemente din program: constante, variabile,
+     funcții, ...; iar sintactic - succesiune de cuvinte, litere, caractere
+     (cum ar fi _ underscore). Primul carecter: litera sau _
 
-Comentarii = sunt ignorate de catre compilaotr ( este un program cu rol de a traduce textul programului care este scris intr-un limbaj de programare numit cod sursa
-in limbaj-masina iar astfel se obtine cod-obiect ) iar ca si rol are de a explica pentru progarmatori anumite secvente din program
-    Exemple: - /**/ se poate scrie mai multe linii de cod
-             - // se poate scrie doar o singura linie de cod
+- limbajul C/C++ este case-sensitive - literele mici != mari
 
-Separatori = aici intra: spatiu, ' ', TAB, '\t', sfarsit de linie ( tasta ENTER ) sau newline '\n'. Acestia fiind separatori "universali"
-Ca si separatori specifici sunt: " , " - virgula se foloseste la o declarare de variabile
-Separatorii delimitatori sunt: " ; " - punct si virgula se utilizeaza atunci cand vrei sa delimitezi sfarsitul unei instructiuni sau a unei variabile
-                               " ' " - apostrof este utilizat cand vrei sa delimitezi o constanta caracter
-                               " "" " - ghilimelele se folosesc atunci cand vrei sa delimitezi constantele sir de caracter
-                               
-Structura generala a unui program C/C++ = este alcatuit dintr-o succesiune de module denumite functii - iar una dintre cele mai importante functii este " main() "
-iar aceasta functie este obligatoriu ca sa apara cel putin o singura data in program pentru ca executia programului incepe cu aceasta functie
-      - o functie este alcatuita din: => antetul functiei - contine numele functiei, 
-                                                          - tipul rezultatului pe care il calculeaza functia
-                                                          - lista de parameti cu care comunica functia iar aceasta din urma este incadrata intre: ()
-                                                              exemplu: tip_rezultat nume (lista_parametri)
-                                      => corpul functiei
-TEMĂ: de citit până la pagina 18 sus
+- cuvinte rezervate (cuvinte cheie = keywords). Exemple: if, while
+
+- comentarii = sunt ignorate de către compilator
+    /**/ se poate scrie mai multe linii de cod
+    // comentariu pe o linie
+
+- separatori = ' ', TAB, '\t', sfarsit de linie sau newline '\n'. , ; ' ""
+
+- Structura generală a unui program C/C++ = succesiune de module (funcții)
+    main()
+
+- funcție: antetul (numele, tipul rezultatului returnat, parametri)
+           corpul functiei
+
+TEMĂ: de citit de la pagina 18 sus până la  21 jos
+-
+-
+-
+-
+-
