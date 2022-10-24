@@ -35,9 +35,10 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 - funcție: antetul (numele, tipul rezultatului returnat, parametri)
            corpul functiei
 
+- Tipuri de date standard - aici intra tipuri de date naturale, intregi, de caracter, bool si void
+    - date naturale = sunt reprezentate in baza 2 din 8, 16, 32 sau 64 de biti
+    - date intregi = 
+    -
+    -
+
 TEMĂ: de citit de la pagina 18 sus până la  21 jos
--
--
--
--
--
