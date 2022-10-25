@@ -36,9 +36,18 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
            corpul functiei
 
 - Tipuri de date standard - aici intra tipuri de date naturale, intregi, de caracter, bool si void
-    - date naturale = sunt reprezentate in baza 2 din 8, 16, 32 sau 64 de biti
-    - date intregi = 
-    -
-    -
-
+    - date naturale = sunt reprezentate in baza 2 din 8, 16, 32 sau 64 de biti (unsigned char, short int, int, long int, long long int)
+    - date intregi = sunt reprezentate in cod complementar pe 8, 16, 32 sau 64 biti (char, short int, int, long int, long long int)
+    - date caracter = sunt utilizate doua tipuri unsigned char si char; iar acesta din urma poate avea o natura duala - caractere ASCII si nr. intregi
+    - tipuri reale = sunt reprezentate de codul floating point (virgula mobila) iar aici intra: flaot, double, long double
+    
+- Variabile = o data care isi modifica valorea in timpul programului
+    - inainte de a o folosi trebuie sa o declaram - iar aici specificam numele ei, tipul, eventual si o valoare a acesteia
+    - se poate declara mai multe variabile de acelasi tip fiind separate prin virgula
+    - cand se declara variabila i se poate atribui si o valoare prin careacterul '='
+    - prin parantezele [] se descrie formatul general iar acesta poate sa apara sau nu in declaratia variabilei
+    - globala daca este plasata in exteriorul unei functii
+    - locala daca este plasata in interiorul functiei
+    
+- Procesoare = 
 TEMĂ: de citit de la pagina 18 sus până la  21 jos
