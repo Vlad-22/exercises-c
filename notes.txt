@@ -49,5 +49,19 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
     - globala daca este plasata in exteriorul unei functii
     - locala daca este plasata in interiorul functiei
     
-- Procesoare = 
+- Preprocesare = un program lansat inainte de compilare executand toate directivele preprocesorului
+    - directivele de preprocesor = incep cu caracterul # (ex.: #include, #define, #if, #undef, #line)
+    => fisier antet (header) = este format din: declararea functiilor, constantelor, variabilelor, tipul definit intr-o biblioteca
+            - este specific bibliotecii pe care dorim sa o utilizam 
+                [ex.: #include<cmath> - pentru C++ (pentru functii matematice), <math.h> - pentru C (pentru functii matematice)
+                <iostrim> - pentru C++ (pentru functii de intrare/iesire), <stdio.h> - pentru C (pentru functii de intrare/iesire)
+                <cstdio> - pentru C++ (pentru functii de intrare/iesire)]
+    - sursa = daca este scrisa in C (este salvat cu extensia .c) atunci header-ul va fi scris cu .h
+          = daca este scrisa in C++ (este salvat cu extensia .cpp) atunci va fi doar header-ul fara .h
+    - daca header-ul nu este in directorul curent atunci trebuie sa se specifice si calea catre acesta
+    - constante simbolice = este bine de utilizat pentru a creste lizibilitatea programului
+            - prin aceste constante programul este mult mai usor de corectat/modificat
+    - hedear = contine atat constante simbolice cat si definitii
+    
+- Utilizarea functiilor din bibliotecile standard = 
 TEMĂ: de citit de la pagina 18 sus până la  21 jos
