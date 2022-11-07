@@ -63,5 +63,16 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
             - prin aceste constante programul este mult mai usor de corectat/modificat
     - hedear = contine atat constante simbolice cat si definitii
     
-- Utilizarea functiilor din bibliotecile standard = 
+- Utilizarea functiilor din bibliotecile standard = setul de instuctiuni este restrans dar destul pentru implementarea eficienta si concisa a algoritmilor
+    - sunt operatii care sunt utilizate destul de frecvent (ex. citirea, scrierea, extragerea radicalului, calculul modulului) nefiind insrtructiuni specifice
+    - pot sa fie implementate cu ajutorul unor instructiuni existente in limbaj iar de aceea s-au construit biblioteci de functii pe care le contin
+    - pentru a le utiliza este suficent doar sa includem in program header-ul si ulterior sa apelam functia  de care avem nevoie
+    - utilizarea functiilor dintr-o biblioteca ar trebui sa se includa la inceput header-ul continand declaratiile functiilor din biblioteca
+    - pentru apelarea functiei trebuie sa cunoastem numele si formatul(prototipul) ei
+    => prototipul functiei = ne informeaza despre numele functiei, tipul valorii calculate si despre parametrii functiei, avand structura unui antet de functie
+    - cand folosim o functie = o apelam - trebuie sa se specifice valorile functiei depre care o apelam
+    - aceste valori ale parametrilor trebuie specificate pentru care functie se apeleaza
+    - valorile de la acest parametru de apel trebuie sa corespunda ca numar, ordine si timp cu parametrii specificati
+
+- Citirea/scrierea datelor = 
 TEMĂ: de citit de la pagina 18 sus până la  21 jos
