@@ -74,5 +74,17 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
     - aceste valori ale parametrilor trebuie specificate pentru care functie se apeleaza
     - valorile de la acest parametru de apel trebuie sa corespunda ca numar, ordine si timp cu parametrii specificati
 
-- Citirea/scrierea datelor = 
+- Citirea/scrierea datelor
+    => citirea datelor = operatia prin care 1 sau mai multe variabile primesc valori prin introducerea lor de la
+                              tastatura sau extragerea lor de pe un suport de memorie
+    => scrierea datelor = operatia prin care rezultatul obtinut in urma prelucrarii datelor este afisata 
+                              pe ecranul monitorului
+     - aceste operatii sunt denumite si operatii de intrare/iesire
+     - in C/C++ instructiunile speciale pentru citirea/scrierea datelor nu exista
+     - operatiile de acest gen se realizeaza prin functiile existente ale bibliotecilor standard ale libajului
+     - operatiile de intrare/iesire difera intre limbajul C si C++
+     - de aceasta data diferentele sunt majore intre operatiile de intrare/iesire ale celor 2 limbaje de programare
+          C si C++ - pentru ca acesta din urma sunt proiectate din perspectiva POO
+          
+ - Citiri si scrieri in limbajul C++
 TEMĂ: de citit de la pagina 18 sus până la  21 jos
