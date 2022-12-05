@@ -40,7 +40,7 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
     - date intregi = sunt reprezentate in cod complementar pe 8, 16, 32 sau 64 biti (char, short int, int, long int, long long int)
     - date caracter = sunt utilizate doua tipuri unsigned char si char; iar acesta din urma poate avea o natura duala - caractere ASCII si nr. intregi
     - tipuri reale = sunt reprezentate de codul floating point (virgula mobila) iar aici intra: flaot, double, long double
-    
+
 - Variabile = o data care isi modifica valorea in timpul programului
     - inainte de a o folosi trebuie sa o declaram - iar aici specificam numele ei, tipul, eventual si o valoare a acesteia
     - se poate declara mai multe variabile de acelasi tip fiind separate prin virgula
@@ -48,11 +48,11 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
     - prin parantezele [] se descrie formatul general iar acesta poate sa apara sau nu in declaratia variabilei
     - globala daca este plasata in exteriorul unei functii
     - locala daca este plasata in interiorul functiei
-    
+
 - Preprocesare = un program lansat inainte de compilare executand toate directivele preprocesorului
     - directivele de preprocesor = incep cu caracterul # (ex.: #include, #define, #if, #undef, #line)
     => fisier antet (header) = este format din: declararea functiilor, constantelor, variabilelor, tipul definit intr-o biblioteca
-            - este specific bibliotecii pe care dorim sa o utilizam 
+            - este specific bibliotecii pe care dorim sa o utilizam
                 [ex.: #include<cmath> - pentru C++ (pentru functii matematice), <math.h> - pentru C (pentru functii matematice)
                 <iostrim> - pentru C++ (pentru functii de intrare/iesire), <stdio.h> - pentru C (pentru functii de intrare/iesire)
                 <cstdio> - pentru C++ (pentru functii de intrare/iesire)]
@@ -62,7 +62,7 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
     - constante simbolice = este bine de utilizat pentru a creste lizibilitatea programului
             - prin aceste constante programul este mult mai usor de corectat/modificat
     - hedear = contine atat constante simbolice cat si definitii
-    
+
 - Utilizarea functiilor din bibliotecile standard = setul de instuctiuni este restrans dar destul pentru implementarea eficienta si concisa a algoritmilor
     - sunt operatii care sunt utilizate destul de frecvent (ex. citirea, scrierea, extragerea radicalului, calculul modulului) nefiind insrtructiuni specifice
     - pot sa fie implementate cu ajutorul unor instructiuni existente in limbaj iar de aceea s-au construit biblioteci de functii pe care le contin
@@ -77,7 +77,7 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 - Citirea/scrierea datelor
     => citirea datelor = operatia prin care 1 sau mai multe variabile primesc valori prin introducerea lor de la
                               tastatura sau extragerea lor de pe un suport de memorie
-    => scrierea datelor = operatia prin care rezultatul obtinut in urma prelucrarii datelor este afisata 
+    => scrierea datelor = operatia prin care rezultatul obtinut in urma prelucrarii datelor este afisata
                               pe ecranul monitorului
      - aceste operatii sunt denumite si operatii de intrare/iesire
      - in C/C++ instructiunile speciale pentru citirea/scrierea datelor nu exista
@@ -85,6 +85,8 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
      - operatiile de intrare/iesire difera intre limbajul C si C++
      - de aceasta data diferentele sunt majore intre operatiile de intrare/iesire ale celor 2 limbaje de programare
           C si C++ - pentru ca acesta din urma sunt proiectate din perspectiva POO
-          
+
  - Citiri si scrieri in limbajul C++
+ test
+
 TEMĂ: de citit de la pagina 18 sus până la  21 jos
