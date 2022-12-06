@@ -86,7 +86,20 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
      - de aceasta data diferentele sunt majore intre operatiile de intrare/iesire ale celor 2 limbaje de programare
           C si C++ - pentru ca acesta din urma sunt proiectate din perspectiva POO
 
- - Citiri si scrieri in limbajul C++
- test
+ - Citiri si scrieri in limbajul C++ = conceptul principal in operatiile de intrare/iesire in C++ - fluxul de intrare iesire (sau stream)
+     - un stream este o succesiune de caracatere;
+     - stream de intrare = secventa de caractere merge de la interior la exterior (la noi de la tastatura) catre memoria calculatorului
+     - stream de iesire = secventa de caractere merge de la memoria pc-ului catre exterior (la noi la ecranul monitorului)
+
+     - in iostream sunt 2 fluxuri standard declarate = 
+		=> cin (console input) = flux de intrare de la tastatura
+		=> cout (console output) = flux de iesire catre ecran
+
+     - using namespace std = se va adauga la inceputul programului, dupa preprocesor; specificand ca utilizam spatiu de nume standard
+
+     - ">>" - cand dorim sa extragem fluxul de intrare
+     - cin>>variabila = are ca valorare fluxul de intrare (cin)
+     - operatorul de extragere = operator de citire si se poate utiliza si inlantuit
+
 
 TEMĂ: de citit de la pagina 18 sus până la  21 jos
