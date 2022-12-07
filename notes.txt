@@ -101,5 +101,13 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
      - cin>>variabila = are ca valorare fluxul de intrare (cin)
      - operatorul de extragere = operator de citire si se poate utiliza si inlantuit
 
+   Obs.: - valorile numerice trebuie introduse de la tastatura fiind separate prin caractere albe; iar acestea sunt introduse cu ajutorul ">>"
+	 - caracterele albe = sunt ignorate de operatorul de citire ">>"
+
+      - "<<" (operator de iesire/scriere) - pentru scrierea datelor pe ecran si se poate scrie inlantuit cand dorim sa scriem mai multe date
+
+
+ - Citiri si scrieri in limbajul C
+
 
 TEMĂ: de citit de la pagina 18 sus până la  21 jos
