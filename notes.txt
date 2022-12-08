@@ -107,7 +107,29 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
       - "<<" (operator de iesire/scriere) - pentru scrierea datelor pe ecran si se poate scrie inlantuit cand dorim sa scriem mai multe date
 
 
- - Citiri si scrieri in limbajul C
+ - Citiri si scrieri in limbajul C = se realizeaza cu ajutorul unor fuctii specifice
+
+ - Citirea datelor cu format specificat 
+	- fct. scanf - citeste datele sub format specificat; iar aceasta functie este declarata in fisierul antet stdio.h - care este si biblioteca
+        - parcurge una sau mai multe succesiuni de caractere care este introdusa de la tastatura si extrage valorile care trbuie citite
+        - in lista de parametrii ai functiei sunt memorate in ordine varibilele memorate
+	- operatorul de referentiere (&) - ajuta la obtinerea adresei unei variabile
+	- & - este unar - are un singur operator si acesta trebuie sa fie o varibila (ex. &variabila)
+	- scanf - returneaza numarul de valori citite corect; iar in cazul unei erori se va intrerupe din citit pe pozitia in care a fost depistata eroarea
+	- daca in lista de parametri se va specifica doar numele variabilei si nu si adresa acesteia, va citi doar valoare corestupnzatoare a acestei variabile
+
+ Parametrul "format" - poate sa contina caractere albe si altfel de caractere si poate forma un sir de caractere
+ - caracterele albe vor fi ignorate; iar celalalte caractere vor fi prezentate la intrare in pozitiile corespunzatoare
+
+	- Caracterul (%) arata ca este un specificator de format si ca el trebuei sa contina o litera semnificand tipul valorii care se citeste.
+	- Litera care indica tipul poate sa fie:
+		=> "d" - se citeste un numar intreg scris in baza 10 si va fi memorat intr-o variabila de tip "int"
+		=> "o" - se citeste un numar intreg scris in baza 8 si va fi memorat intr-o variabila de tip "int"
+		=> "u" - se citeste un numar intreg scris in baza 10 si va fi memorat intr-o variabila de tip "unsigned int"
+		=> "x" - se citeste un numar intreg scris in baza 16 si va fi memorat intr-o variabila de tip "int"
+		=> "f, e sau g" - se citeste un numar real scris in baza 10 si va fi memorat intr-o variabila de tip "float"
+		=> "c" - se citeste un caracter iar in acest caz caracterele albe prezente la intrare nu se ignora
+		=> "s" - se citeste un sir de caractere si va incepe cu urmatorul caracter care nu este alb si continua pana la primul caracter alb pe care il intalneste sau pana la epuizarea dimenisiunii maxime
 
 
-TEMĂ: de citit de la pagina 18 sus până la  21 jos
+TEMĂ: de citit pana la pagina 34
