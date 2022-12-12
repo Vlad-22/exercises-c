@@ -130,6 +130,25 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 		=> "f, e sau g" - se citeste un numar real scris in baza 10 si va fi memorat intr-o variabila de tip "float"
 		=> "c" - se citeste un caracter iar in acest caz caracterele albe prezente la intrare nu se ignora
 		=> "s" - se citeste un sir de caractere si va incepe cu urmatorul caracter care nu este alb si continua pana la primul caracter alb pe care il intalneste sau pana la epuizarea dimenisiunii maxime
+	- Caracterul (*) el indica inceputul unui specificator de format. Daca dorim ca la intrare sa apara (%) atunci vom utiliza constructia sintactica (%%).
 
+	- Citirea caracterelor - au fost elaborate caractere speciale; de exemplu: "getchar"
+			       - se citeste de la tastatura un caracter si functia va da codul ASCII pentru caracterul acela
+	- Afisarea datelor cu format - se realizeaza daca apelezi functia "printf()"
+				     - se evalueaza expresiile, se scriu in oridinea valorilor acestora, specificata de parametrul "format" 
+				     - in acest caz functia returneaza numarul de caractere afisate
+		- Parametrul "format" este un sir de caractere si contine specificatori de format si alte caractere
+		- Un specificator de format terbuie sa inceapa cu (%) trebuie sa contina o litera obligatoriu care sa indice tipul expresiei corespunzatoare; iar eventula si alte elemente optionale
+
+			- Literele care indica tipul sunt:
+				- d - se converteste din tipul "int" si se afiseaza in baza 10
+				- o - se converteste din tipul "int" si se afiseaza in baza 8
+				- u - se converteste din tipul "unsigned" si se afiseaza in baza 10
+				- x, X - se converteste din tipul "int" si se afiseaza in baza 16
+				- f - se converteste din tipul "float" si se afiseaza in formatul parte_intreaga.parte_zecimala
+				- e, E - se converteste din tipul "float" si se afiseaza in formatul cifra.parte_zecimalae+-exponent
+				- g - se aplica dintre conversiile literei f sau e
+				- c - are ca valoare codul ASCII al unui caracter; afisand caracterul corespunzator
+				- s - un sir de caractere care se va afisa pe ecran
 
 TEMĂ: de citit pana la pagina 34
