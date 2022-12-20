@@ -151,4 +151,51 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 				- c - are ca valoare codul ASCII al unui caracter; afisand caracterul corespunzator
 				- s - un sir de caractere care se va afisa pe ecran
 
+	- Expresii - construite dintr-o succesiune de operanzi fiind conectati prin operatori
+		- operand - poate sa fie o constanta, o variabila, un apel de functie sau o expresie care este bagata in paranteze rotunde
+		- operatorii - se pot grupa pe categorii, in functie de tipul operatiilor desemnate
+           
+	    - operatori aritmetici,
+	    - operatori de incrementare si decrementare,
+	    - operatori relationali
+	    - operatori de egalitate
+	    - operatori logici
+	    - operatori logici pe biti
+	    - operatori de atribuire
+	    - operatori conditionali
+	    - operatori de determinare a dimensiunii
+	    - operatori de conversie explicita
+
+		- sunt unari adica se aplica la un singur operand
+		- sau binari care necesita 2 operanzi
+		- se pot grupa in mai multe clase de prioritate
+
+	- Operatori aritmetici - sunt operatii uzuale cum ar fi: *, -, /, % (restul impartirii intregi) si semnul algebric (operatori unari +, -)
+	
+	=> Observatii:
+
+		- % - nu poate fi utilizat decat operanzilor intregi
+		- / - poate fi utilizat atat operanzilor intregi cat si celor reali fuctionand diferit pentru operanzii intregi fata de cei reali
+		    - daca sunt 2 operanzi intregi, fuctioneaza ca si catul impartirii intregi
+		    - daca numai unul este un operand real atunci el va functiona ca fiind rezultatul impartirii numerelor reale
+
+	- Operatori de incrementare/decrementare - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TEMĂ: de citit pana la pagina 34
