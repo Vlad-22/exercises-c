@@ -179,22 +179,35 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 		    - daca sunt 2 operanzi intregi, fuctioneaza ca si catul impartirii intregi
 		    - daca numai unul este un operand real atunci el va functiona ca fiind rezultatul impartirii numerelor reale
 
-	- Operatori de incrementare/decrementare - 
+	- Operatori de incrementare/decrementare - '++' - de incrementare
+						 - '--' - de decrementare
+			 - sunt unari; iar efectul lor - de a mari sau micsora valoarea cu 1 
+			 - se poate folosi si in fata operandului iar atunci se executa mai intai incrementarea/decrementarea; daupa se va utiliza valoarea operandului sau dupa operand (sau forma prefixata) utilizandu-se mai intai valoarea operandului iar dupa se va efectua incrementarea/decrementarea
+			 - se pot aplica doar variabilelor simple
+			 - daca incercam sa atribuim acesti operatori unor expresii ne va da eroare deoarece nu pot fi apicati unor experesii
 
+	- Operatori relationali - '<' - (mai mic)
+				- '>' - (mai mare)
+				- '<=' - (mai mic sau egal)
+				- '>=' - (mai mare sau egal)
+				- sunt operatori binari	
+				- rezultatul va fi 1 daca cei 2 operanzi sunt in relatia indicata
+				- rezultatul va fi 0 daca cei 2 operanzi nu sunt in relatia indicata
 
+	- Operatori de egalitate - '==' - relatia de egalitate
+				 - '!=' - relatia de inegaliate
+				 - sunt operatori binari
+				 - rezultatul va fi 1 daca cei 2 operanzi sunt in relatia indicata
+				 - rezultatul va fi 0 daca cei 2 operanzi nu sunt in relatia indicata
 
+	- Operatori logici glibali - sunt 3 operatori logici globali; unul de tip unar si 2 de tip binar:
+						- '!' - negatia logica (not) - tip unar
+						- '&&' - conjunctie logica (si) - tip binar
+						- '||' - conjunctie logica (sau) - tip binar
+		- false - este atribuita valorii 0
+		- true - este atribuita oricarei valori diferita de 0
 
-
-
-
-
-
-
-
-
-
-
-
+	- Operatori logici pe biti - 
 
 
 
