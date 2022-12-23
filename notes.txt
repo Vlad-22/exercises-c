@@ -207,7 +207,39 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 		- false - este atribuita valorii 0
 		- true - este atribuita oricarei valori diferita de 0
 
-	- Operatori logici pe biti - 
+	- Operatori logici pe biti - numai operanzilor intregi se aplica
+				   - efect: aplicarea operatiilor logice cunoscute (negatie, conjunctie, ddisjunctie si disjunctie exclusiva) bit cu bit
+
+		- Operatorii logici pe biti sunt: => ~ complementariere (negatie pe biti) este de tip unar 
+						  => <<, >> deplasare la stanga si deplasare la dreapta este de tip binar
+						  => & conjunctie logica pe biti este de tip binar
+						  => ^ disjunctie exclusiva pe biti este de tip  binar
+						  => | disjunctie logica pe biti este de tip binar
+			- Operatorii de deplasare - efectul lor este: deplasarea reprezentarii binare a primului operand spre stanga (<<) sau spre dreapta (>>)
+						  - nr de pozitii este specificat de cel de-al doilea operand
+						  - atunci cand se deplaseaza la stanga pozitiile ramase libere in dreapta se completeaza cu 0
+						  - atunci cand se deplaseaza la dreapta pozitiile ramase libere in stanga se completeaza cu 0
+						  - cand operandul stang este un nr pozitiv se completeaza cu 0
+						  - cand operandul stang este un nr negativ se completeaza cu 1
+	
+		=> Observatii: - x<<n are ca efect inmultirea operandului x cu 2 la puterea n
+			       - x>>n are ca efect impartirea operandului x cu 2 la puterea n
+
+	- Operatori de atribuire - sunt binari si permit modificarea valorii unei variabile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
