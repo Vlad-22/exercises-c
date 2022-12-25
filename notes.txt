@@ -261,7 +261,16 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 		- exemplu: expresie_1, expresie_2, expresie_3, ... , expresie_n - evaluarea se face de la stanga la dreapta cele n expresii, iar valoarea intregii expresii este egala cu valoarea expresiei_n
 			     - este necesar atunci cand permite valoarea unei singure expresii ( de ex. in for) dar este necesar ca sa fie evaluate mai multe expresii
 
-			- Evaluarea expresiilor - 
+			- Evaluarea expresiilor - calculul valorii expresiei prin inlocuirea fiecarei variablie cu valoarea ei si a fiecarei functie cu valoarea returnata de functia respectiva si efectuarea operatiilor specificate de operatori
+						- in timpul evaluarii expresiilor se tine cont de existenta parantezelor de prioritate si de asociativitatea operatiilor:
+							- in primul rand se evalueaza expresiile din paranteze, incepand cu parantezele cele mai interioare
+							- in cadrul unei expresii fara paranteze, se efectueaza operatiile in ordinea prioritatii operatiilor
+							- daca intr-o expresie apare o succesiune de operatori cu prioritati egale se tine cont de asociativitatea operatiilor iar operatorii se asociaza de la stanga la dreapta cu exceptia operatorilor unari, conditionali si de atribuire, care se asociaza de la dreapta la stanga
+						- daca operanzii care intervin intr-o expresie au acelasi tip, tipul expresiei coincide cu tipul operanzilor
+						- daca operanzii nu au celasi tip pe parcursul evaluarii expresiei se realizeaza automat o serie de conversii implicite
+						- regula pe care se bazeaza conversia implicita este: operandul care are un domeniu de valori mai restrans este convertit la tipul operandului care are multimea valorilor mai ampla (ex. operanzii de tip char sunt convertiti la int; daca un operand este long double celalalt va fi convertit tot la long double; daca un operand va fi la long long int si celalalt este de tip int, el va fi convertit automat la long long int; daca un operand este de tip int si celalalt este de tip unsigned int, conversia este unsigned int
+
+
 
 
 
