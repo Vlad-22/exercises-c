@@ -224,20 +224,44 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 	
 		=> Observatii: - x<<n are ca efect inmultirea operandului x cu 2 la puterea n
 			       - x>>n are ca efect impartirea operandului x cu 2 la puterea n
+			       - Operatiile care se executa pe biti sunt foarte performante / rapide
 
 	- Operatori de atribuire - sunt binari si permit modificarea valorii unei variabile
+				 - este un operator de atribuire simplu "="
+				 - 10 opratori de atribuire compusi cu ajutorul '=' si a altui operator binar (aritmetic sau logic pe biti)
 
+	    - exemple: => variabila = expresie - se evalueaza expresia si dupa se atribuie variabilei valoarea expresiei
+					       - valoarea variabilei de atribuire este egala cu valoarea variabilei de atribuire
 
+		       => variabila operator = expresie - operatorul poate sa fie o multime {*, /, %, +, -, <<, >>, &, |, ^} 
+							- echivalent cu a unei atribuiri de tipul de mai sus
 
+		       => variabila = variabila operator expresie - grupa de prioritate a operatorilor de atribuire este 15
 
+		=> Observatii: - expresia poate sa fie si o expresie de atribuire iar operatorii de atribuire se pot utiliza inlantuit
+			       - de exemplu - variabila_1 = variabila_2 = variabila_3 =...= variabila_n = experesie
 
+	- Operatori conditionali - '?' si ':' - utilizarea lor se face impreuna
+		- Formatul unei expresii conditionale este: expresie_1 ? expresie_2 : expresie_3
+				 - se evalueaza valoarea expresie_1 iar daca aceasta are o valoare nenula atunci valoarea expresiei conditionale este egala cu valoarea expresie_2.
+				 - daca expresie_1 este egala cu 0 atunci valoarea expresiei conditionale este egala cu valoarea expresie_3
 
+		- Exemple: - x > y ? x : y - ca si valoare este maximul dintre x si y
+			   - x >= 0 ? x : -x - modulul lui x
 
+	- Operatorul de referinta (adresa) - este de tip unar si permite determinarea adresei zonei de memorie in care este stocata o variabila: ex. &variabila
 
+	- Operatorul de conversie explicita - este de tip unar si permite conversia explicita (fortata) a tipului unei expresii la un tip specificat
+		- ex. (tip) expresie - in paranteze se poate pune: int, long long int, float, etc
 
+	- Operatori de determinare a dimensiunii - este de tip unar si determina dimensiunea exprimata in numarul de octeti a zonei de memorie
+		- ca si operator de determinarea dimensiunii este: sizeof (expresie) sau (tip)
 
+	- Operatorul virgula - permite crearea mai multor expresii astfel incat sa fie tratate din punct de vedere sintactic ca o singura expresie
+		- exemplu: expresie_1, expresie_2, expresie_3, ... , expresie_n - evaluarea se face de la stanga la dreapta cele n expresii, iar valoarea intregii expresii este egala cu valoarea expresiei_n
+			     - este necesar atunci cand permite valoarea unei singure expresii ( de ex. in for) dar este necesar ca sa fie evaluate mai multe expresii
 
-
+			- Evaluarea expresiilor - 
 
 
 
