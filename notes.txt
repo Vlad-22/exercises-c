@@ -270,10 +270,22 @@ Notițe din Programarea în Limbajul C/C++ pentru liceu, vol. I
 						- daca operanzii nu au celasi tip pe parcursul evaluarii expresiei se realizeaza automat o serie de conversii implicite
 						- regula pe care se bazeaza conversia implicita este: operandul care are un domeniu de valori mai restrans este convertit la tipul operandului care are multimea valorilor mai ampla (ex. operanzii de tip char sunt convertiti la int; daca un operand este long double celalalt va fi convertit tot la long double; daca un operand va fi la long long int si celalalt este de tip int, el va fi convertit automat la long long int; daca un operand este de tip int si celalalt este de tip unsigned int, conversia este unsigned int
 
-
-
-
-
+	- Tabelul prioritatii operatorilor
+		- incrementare / decrementare postfixata (a++, a--) iar ca si asociativitate este de la stanga la dreapta
+		- operatori unari: negatie si negatie pe biti, semn algebric, conversie de tip, determinarea dimensiunii, operator adresa, incrementare / decrementare prefixat (! ~ + - (tip) sizeof & ++a--a) iar ca si asociativitate este de la dreapta la stanga
+		- operatori aritmetici multiplicativi (* / %) iar ca si asociativitate este de la stanga la dreapta
+		- operatori aritmetici aditivi (+ -) iar ca si asociativitate este de la stanga la dreapta
+		- operatori de deplasare (<< >>) iar ca si asociativitate este de la stanga la dreapta
+		- operatori relationali (< > <= >=) iar ca si asociativitate este de la stanga la dreapta
+		- operatori de egalitate (== !=) iar ca si asociativitate este de la stanga la dreapta
+		- conjunctie pe biti (&) iar ca si asociativitate este de la stanga la dreapta
+		- XOR (sau exclusiv pe biti) (^) iar ca si asociativitate este de la stanga la dreapta
+		- Disjunctie pe biti (|) iar ca si asociativitate este de la stanga la dreapta
+		- Conjunctie (&&) iar ca si asociativitate este de la stanga la dreapta
+		- Disjunctie (||) iar ca si asociativitate este de la stanga la dreapta
+		- Operatori conditionali (? :) iar ca si asociativitate este de la dreapta la stanga
+		- Operatori de atribuire (= *= /= %= += -= &= ^= |= <<= >>=) iar ca si asociativitate este de la dreapta la stanga
+		- Operatorul virgula (,) iar ca si asociativitate este de la stanga la dreapta
 
 
 TEMĂ: de citit pana la pagina 34
