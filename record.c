@@ -4,7 +4,7 @@
 int main(void) {
     double r = 2;
     scanf("%lf", &r);
-    printf("Aria = %.2lf Parametrul = %.2lf\n", M_PI*r*r, 2*M_PI*r);
+    printf("Aria = %.2lf Perimetrul = %.2lf\n", M_PI*r*r, 2*M_PI*r);
     return 0;
 }
 
