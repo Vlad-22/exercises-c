@@ -8,6 +8,6 @@ int main(void) {
     return 0;
 }
 
-/* gcc record.c
+/* gcc circle.c
 Aria = 12.57 Parametrul = 12.57
 */ 
